@@ -1,0 +1,16 @@
+Musical Jades Version History
+
+v0.2 (2026-05-03)
+-----------------
+- Migrated from Jupyter Notebook prototype to a standalone Python package.
+- Implemented a custom Pattern DSL for programmatic music composition.
+- Added a high-performance audio Renderer using NumPy and SciPy.
+- Developed a live-coding GUI with Tkinter for real-time pattern manipulation.
+- Added support for MP3 export using ffmpeg.
+- Integrated waveform generators (Sine, Sawtooth, Square, Triangle).
+- Added effect generators (Time Warp, Echo, Cusp Crescendo).
+
+v0.1 (2025-01-28)
+-----------------
+- Initial Jupyter Notebook prototype ("synthboard_v0-0-1.ipynb").
+- Basic audio synthesis using Python's standard library and simple math.

@@ -11,7 +11,7 @@ from src.stdlib import beep, elastic_beeps, silence, echo_pattern, cusp_crescend
 class AudioApp:
     def __init__(self, root, ffmpeg_path="ffmpeg"):
         self.root = root
-        self.root.title("Musical Jades Audio Engine")
+        self.root.title("Musical Jades v0.2")
         self.root.geometry("800x600")
         
         # Theme Colors (Musical Jades: Forest, Sage, Olive)
